@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<nav class="nav nav_top">
+		<div class="nav_img">
+			<a href="project2.html"><img src="https://static.wixstatic.com/media/72c0b2_9417bad731e543578911f6110f4e9a2d~mv2.jpg/v1/fill/w_924,h_476,al_c,q_90/72c0b2_9417bad731e543578911f6110f4e9a2d~mv2.jpg"width="100px"height="100px" ></a></div>
+		</div>
+		<div class="nav_info">
+			<a href="aboutus.html"><font size="5px">about us</font></a>
+			<a href="services.html"><font size="5px">experts</font></a>
+			<a href="contact.html"><font size="5px">contact us</font></a>
+			<a href="login.html"><font size="5px">login</font></a>
+			<a href="register.html"><font size="5px">sign up</font></a>
+		</div>
+</nav>
+		<div class="map">
+			<h1> OUR LOCATION<h1>
+				<div class="map_content">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.446975580893!2d77.95173471383917!3d12.552751827328965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badd56c3f6e4bd7%3A0xf5921103a902df61!2sTATA%20ELECTRONICS%20LTD!5e0!3m2!1sen!2sin!4v1627649817291!5m2!1sen!2sin" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				<div class="contact">
+					<p><b>Address: Bengalure, India</b></p>
+				<p><b>Call: +91 9490323815</b></p>
+				<p><b>mail: support@gmail.com</b></p>
+				</div>
+
+		</div>
+		<div class="feedback">
+	
+	<form method="post" name="fb_apple">
+		<h1>FEED BACK</h1>
+		<input type="text" name="name" placeholder="username" required><br>
+		<input type="email" name="email" placeholder="enter email adress " required><br>
+		<input type="tel" name="number" placeholder="phone number" required><br>
+		<textarea rows="5" cols="7" name="comment" placeholder="feedback please" required></textarea><br>
+		<button type="submit">SUBMIT</button>
+
+</form>
+</div>
+<footer>
+	<div class="logo">
+		<img src="https://static.wixstatic.com/media/72c0b2_9417bad731e543578911f6110f4e9a2d~mv2.jpg/v1/fill/w_924,h_476,al_c,q_90/72c0b2_9417bad731e543578911f6110f4e9a2d~mv2.jpg"width="100px"height="100px"></img>
+	</div>	
+	<div class="pages">
+		<h1>PAGES</h1>
+		<a href="aboutus.html"> About Us</a>|
+		<a href="services.html">Services</a>|
+		<a href="contact.html">Contact Us</a>|
+		<a href="login.html">Login</a>|
+		<a href="register.html">Sign Up</a>
+	</div>
+	<div class="doc">
+		<h1>DOCUMENTS</h1>
+		<a href="">Policy polices</a>|
+		<a href="">terms of use</a>	|
+		<a href="">Refund Policy</a>
+	</div>
+	<div class="social">
+		<h1>FOLLOW US</h1>
+		<a href="https://www.facebook.com/tataelectronics.co.in/" target="blanck"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/tatacompanies/?hl=en"target="blanck"><i class="fab fa-instagram-square"></i></a>
+		<a href="https://twitter.com/tatamotors?lang=en" target="blanck"><i class="fab fa-twitter"></i></a>
+		<a href="https://in.linkedin.com/company/tata-group" target="blanck"><i class="fab fa-linkedin-in"></i></a>
+	</div>
+	<div class="contact">
+		<h1>CONTACT US</h1>
+		<a href="https://api.whatsapp.com/send?phone=+919908012609" target="blanck"><i class="fab fa-whatsapp"></i></a>
+		<a href="tel: +919908012609"><i class="fas fa-phone"></i></a>	
+		<a href="mailto: support@bang.ai"><i class="fas fa-envelope"></i></a>
+	</div>
+	<hr>
+	<p> Copyrights &copy; 2021 .ALL RIGHTS ARE RESERVED</p>
+</footer>
+<script>
+	 const scriptURL = 'https://script.google.com/macros/s/AKfycbw7z5sryy8GDWTWZ2jker6kbvUR3E4Pfe6tVlJ2BPFHxIo1eHTV_tBg-KjECuvBDDqA/exec'
+            const form = document.forms['fb_apple']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          
+</script>
+</body>
+</html>

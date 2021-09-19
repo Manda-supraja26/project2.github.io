@@ -1,0 +1,275 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+.nav{
+	z-index: 9;
+	background-color: #D2B4DE;
+	padding-right: 40px;
+	padding-left: 40px;
+	display: flex;
+	box-shadow: 0px 3px 65px 0px gray;
+	height: 110px;
+}
+.nav_top{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+.nav_img{
+	float: left;
+	width: 40%;
+}
+.nav_img img{
+	padding: 5px;
+	width: 50%;
+}
+.nav_info{
+	margin-left: 250px ;
+	float: right;
+	width: 70%;
+	margin-top: 40px;
+}
+.nav_info a{
+	padding: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: cosmic,sans-serif;
+	color:#8E44AD ;
+
+}
+.nav_info a:hover{
+	color: white;
+	text-decoration: overline;
+}
+.map{
+	padding: 150px;
+	margin-top: 30px;
+}
+.map h1{
+	text-align: center;
+	padding: 20px;
+	color: #8E44AD;
+}
+.map .map_content{
+	width: 900px;
+	height: 500px;
+	border: 10px solid purple;
+}
+.map .map_content iframe{
+	width: 900px;
+	height:500px ;
+	
+}
+.feedback{
+	padding:90px;
+	background-image: url("https://www.cipd.co.uk/Images/Damson-with-purple-right-hand-speech-bubble_tcm18-6197_w1200_n.png");
+	background-size: cover;
+	background-repeat: none;
+}
+.feedback form {
+	text-align: center;
+}
+.feedback form h1{
+	padding: 10px;
+	color:  #F0F3F4 ;
+}
+.feedback form input{
+	padding: 15px;
+	margin: 15px;
+	width: 40%;
+	border-radius: 5px;
+	border-left-width:8px ;
+
+}
+.feedback form textarea{
+	padding: 15px;
+	margin: 15px;
+	width: 40%;
+	border-radius: 5px;
+	border-left-width:8px ;
+
+}
+.feedback form button{
+	padding: 15px;
+	margin: 15px;
+	width: 10%;
+	border-radius: 5px;
+	background-color:#C39BD3 ;
+	color: #F0F3F4 ;
+
+}
+footer{
+	background-color: #808B96;
+	padding: 50px;
+}
+footer .logo{
+	padding: 10px;
+}
+footer .logo img{
+	width: 150px;
+	height: 100px;
+}
+footer .pages{
+	text-align: center;
+}
+footer .pages h1{
+	color: black;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+	padding: 5px;
+}
+footer .pages a{
+	text-decoration: none;
+	margin: 10px;
+	color: violet;
+	font-size: 15px;
+	font-family: cosmic , sans-serif;
+}
+footer .pages a:hover{
+	color: white;
+}
+footer .doc{
+	text-align: center;
+}
+footer .doc h1{
+	color: black;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+	padding: 10px;
+}
+footer .doc a{
+	text-decoration: none;
+	margin: 10px;
+	color: violet;
+	font-size: 15px;
+	font-family: cosmic , sans-serif;
+}
+footer .doc a:hover{
+	color: white;
+}
+footer .social{
+	text-align: center;
+}
+footer .social h1{
+	color: black;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+	padding: 5px;
+}
+footer .social a{
+	text-decoration: none;
+	margin: 10px;
+	color: violet;
+	font-size: 15px;
+	font-family: cosmic , sans-serif;
+}
+footer .social a:hover{
+	color: white;
+}
+footer .contact{
+	text-align: center;
+}
+footer .contact h1{
+	color: black;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+	padding: 10px;
+}
+footer .contact a{
+	text-decoration: none;
+	margin: 10px;
+	color: violet;
+	font-size: 15px;
+	font-family: cosmic , sans-serif;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+footer .contact a:hover{
+	color: white;
+}
+.login{
+	background-image: url("https://images.assetsdelivery.com/compings_v2/1stchoice/1stchoice1602/1stchoice160200012.jpg");
+	background-repeat: none;
+	background-size: cover;
+	padding: 128px;
+	margin-top: 100px;
+}
+.login form{
+	text-align: center;
+	padding: 10px;
+}
+.login form input{
+	padding: 10px;
+	border-radius: 5px;
+	border-color: gray;
+	margin: 15px;
+	width: 30%;
+}
+.login form button{
+	padding: 10px;
+	marggin: 20px;
+	border-radius: 8px;
+	background-color: #F0F3F4;
+}
+.login form button:hover{
+	background-color: #27AE60;
+}
+.login form a{
+	padding: 10px;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+
+}
+.signup{
+	background-image: url("https://images.assetsdelivery.com/compings_v2/1stchoice/1stchoice1602/1stchoice160200012.jpg");
+	background-repeat: none;
+	background-size: cover;
+	padding: 70px;
+	margin-top: 100px;
+}
+.signup form{
+	text-align: center;
+	padding: 10px;
+}
+.signup form input{
+	padding: 10px;
+	border-radius: 5px;
+	border-color: gray;
+	margin: 15px;
+	width: 40%;
+}
+.signup form button{
+	padding: 10px;
+	marggin: 20px;
+	border-radius: 8px;
+	background-color: #F0F3F4;
+}
+.signup form button:hover{
+	background-color: #27AE60;
+}
+.signup  a{
+	padding: 10px;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+	margin-left: 45%;
+	margin-top: 20px;
+
+}
+.signup h1{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+
+}
+.login h1{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}

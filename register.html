@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>register</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+<nav class="nav nav_top">
+		<div class="nav_img">
+			<a href="project2.html"><img src="https://static.wixstatic.com/media/72c0b2_9417bad731e543578911f6110f4e9a2d~mv2.jpg/v1/fill/w_924,h_476,al_c,q_90/72c0b2_9417bad731e543578911f6110f4e9a2d~mv2.jpg"width="100px"height="100px" ></a></div>
+		</div>
+		<div class="nav_info">
+			<a href="aboutus.html"><font size="5px">about us</font></a>
+			<a href="services.html"><font size="5px">experts</font></a>
+			<a href="contact.html"><font size="5px">contact us</font></a>
+			<a href="login.html"><font size="5px">login</font></a>
+			<a href="register.html"><font size="5px">sign up</font></a>
+		</div>
+
+</nav>
+
+<div class="signup">
+	<h1>sign up with your mail</h1>
+	<form method="POST" name="signup">
+		name:<input type="text" name="name" placeholder="name"required><br>
+		email:<input type="email" name="email" placeholder="email" required><br>
+		password:<input type="password" name="password" placeholder="password" required><br>
+		phonenumber:<input type="tel" name="number" placeholder="mobile number" required><br>
+		<button type="submit">submit</button>
+	</form>
+	<a href="login.html">back to login</a>
+</div>
+<script>
+	 const scriptURL = 'https://script.google.com/macros/s/AKfycbxjtTcxUhlWokmbDWGcNentI1kNqTHT4JE93AtFRdzR9RQjtXvLRYA8g94I3ToEO-5N/exec'
+            const form = document.forms['signup']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          
+</script>
+
+</body>
+</html>
